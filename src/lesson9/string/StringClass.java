@@ -16,6 +16,21 @@ public class StringClass {
         String string3 = new String(new char[]{'h', 'e', 'l', 'l', 'o'});
         String string4 = new String(new char[]{'w', 'e', 'l', 'c', 'o', 'm', 'e'}, 3, 4);//3 -начальный индекс, 4 -кол-во символов
 
+        // 3. Пул строк и метод intern()
+        /*
+        Когда метод intern() вызван, если пул строк уже содержит строку, эквивалентную к нашему объекту,
+        что подтверждается методом equals(Object), тогда возвращается ссылка на строку из пула.
+        В противном случае объект строки добавляется в пул и ссылка на этот объект возвращается.
+        Этот метод всегда возвращает строку, которая имеет то же значение, что и текущая строка,
+        но гарантирует что это будет строка из пула уникальных строк.
+         */
+        String sA1 = "string a";
+        String sB2 = new String("string a");
+        String sC3 = sB2.intern();
+
+        System.out.println(sA1 == sB2); //false
+        System.out.println(sB2 == sC3); //false
+        System.out.println(sA1 == sC3); //true
 
         // 4. Преобразование
         // Число в строку
@@ -113,7 +128,6 @@ public class StringClass {
         String stB = "bb";
         int n = stA.compareTo(stB);
         System.out.println("n= " + n);  // -1
-
-        System.out.println(stA.intern());
     }
+
 }
