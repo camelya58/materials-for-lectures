@@ -9,8 +9,8 @@ package lesson9.example;
 public class TestForAppend {
     public static void main(String[] args) {
         try {
-            test(new StringBuffer("")); // StringBuffer: 35117ms.
-            test(new StringBuilder("")); // StringBuilder: 3358ms.
+            test(new StringBuffer(""));
+            test(new StringBuilder(""));
         } catch (java.io.IOException e) {
             System.err.println(e.getMessage());
         }
