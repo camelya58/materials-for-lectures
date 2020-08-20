@@ -16,11 +16,12 @@ public class Initialization {
     }
 
     {
-        System.out.println("3 ");
+        System.out.println("3");
     }
 
     public static void main(String[] args) {
         System.out.println("2");
+        new Initialization();
         new Initialization();
     }
 
