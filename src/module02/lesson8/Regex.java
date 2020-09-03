@@ -83,8 +83,9 @@ public class Regex {
 
         String password = "Passw0rd";
         if (password.matches("^(?=.*\\d)(?=.*[A-Z])(?=.*[a-z])[A-Za-z\\d]{8}$")) {
-            System.out.println("It's a good password!");
+            System.out.println(String.format("It's a password -  %s, %d", password, matchCounter2));
         }
+
     }
 
 }
