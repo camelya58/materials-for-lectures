@@ -1,6 +1,4 @@
-package module03.lesson25;
-
-import org.w3c.dom.ls.LSOutput;
+package module03.lesson25.description;
 
 import java.util.ArrayList;
 import java.util.Iterator;

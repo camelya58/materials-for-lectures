@@ -1,4 +1,4 @@
-package module03.lesson25;
+package module03.lesson25.description;
 
 import java.util.ArrayList;
 import java.util.Arrays;
