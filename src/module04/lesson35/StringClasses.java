@@ -1,4 +1,4 @@
-package module03.lesson35;
+package module04.lesson35;
 
 import java.io.BufferedReader;
 import java.io.StringReader;
@@ -27,7 +27,7 @@ public class StringClasses {
         //получаем текст, который был записан во Writer
         String result = writer.toString();
 
-        //выводем полученный из Writer’а текст на экран
+        //выводим полученный из Writer’а текст на экран
         System.out.println("Результат: " + result);
     }
 }
