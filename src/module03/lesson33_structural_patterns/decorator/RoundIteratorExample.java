@@ -1,4 +1,4 @@
-package module03.lesson33.decorator;
+package module03.lesson33_structural_patterns.decorator;
 
 import java.util.ArrayList;
 import java.util.Iterator;

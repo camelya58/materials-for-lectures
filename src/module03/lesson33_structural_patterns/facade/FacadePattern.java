@@ -1,4 +1,4 @@
-package module03.lesson33.facade;
+package module03.lesson33_structural_patterns.facade;
 
 /**
  * Класс FacadePattern

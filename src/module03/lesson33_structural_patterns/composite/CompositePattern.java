@@ -1,4 +1,4 @@
-package module03.lesson33.composite;
+package module03.lesson33_structural_patterns.composite;
 
 import java.util.ArrayList;
 import java.util.List;

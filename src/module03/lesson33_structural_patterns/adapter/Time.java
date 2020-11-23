@@ -1,4 +1,4 @@
-package module03.lesson33.adapter;
+package module03.lesson33_structural_patterns.adapter;
 
 /**
  * Интерфейсы Time и TotalTime

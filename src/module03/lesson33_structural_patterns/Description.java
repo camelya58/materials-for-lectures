@@ -1,4 +1,4 @@
-package module03.lesson33;
+package module03.lesson33_structural_patterns;
 
 /**
  * Структурные паттерны
