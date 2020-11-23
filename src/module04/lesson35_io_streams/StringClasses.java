@@ -1,4 +1,4 @@
-package module04.lesson35;
+package module04.lesson35_io_streams;
 
 import java.io.BufferedReader;
 import java.io.StringReader;

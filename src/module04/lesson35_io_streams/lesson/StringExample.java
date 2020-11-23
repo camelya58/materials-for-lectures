@@ -1,4 +1,4 @@
-package module04.lesson35.lesson;
+package module04.lesson35_io_streams.lesson;
 
 import java.io.BufferedReader;
 import java.io.IOException;
