@@ -1,4 +1,4 @@
-package module02.lesson4;
+package module02.lesson4_modifiers;
 
 public class Example {
 

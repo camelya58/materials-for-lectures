@@ -1,4 +1,4 @@
-package module02.lesson4;
+package module02.lesson4_modifiers;
 
 /**
  * источник: http://proglang.su/java/modifiers.
