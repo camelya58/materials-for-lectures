@@ -1,4 +1,4 @@
-package module02.lesson8;
+package module02.lesson8_associations;
 
 import java.util.Arrays;
 import java.util.Scanner;
