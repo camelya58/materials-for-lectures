@@ -1,4 +1,4 @@
-package module03.lesson25.lesson;
+package module03.lesson25_list_interface.lesson;
 
 import java.util.LinkedList;
 import java.util.List;
