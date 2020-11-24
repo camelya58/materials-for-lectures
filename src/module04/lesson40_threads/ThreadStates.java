@@ -1,12 +1,12 @@
-package module04.lesson40;
+package module04.lesson40_threads;
 
 /**
- * Class ThreadExample
+ * Class ThreadStates
  *
  * @author Kamila Meshcheryakova
  * created by 20.11.2020
  */
-public class ThreadExample {
+public class ThreadStates {
     public static void main(String[] args) throws InterruptedException {
         Thread thread = new Thread();
         System.out.println(thread.getName() + " in a state = " + thread.getState());
