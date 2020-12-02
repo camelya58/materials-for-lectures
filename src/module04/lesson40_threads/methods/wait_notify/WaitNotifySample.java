@@ -1,4 +1,4 @@
-package module04.lesson40_threads.wait_notify;
+package module04.lesson40_threads.methods.wait_notify;
 
 /**
  * Class WaitNotifySample demonstrates the use of wait/notifyAll methods.

@@ -1,4 +1,4 @@
-package module04.lesson40_threads.wait_notify;
+package module04.lesson40_threads.methods.wait_notify;
 
 public class ConsumerTask implements Runnable {
     private TransferObject transferObject;

@@ -1,4 +1,4 @@
-package module04.lesson40_threads;
+package module04.lesson40_threads.methods;
 
 /**
  * Класс ExampleInterruption
