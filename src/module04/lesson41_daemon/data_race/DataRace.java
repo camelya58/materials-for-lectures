@@ -1,4 +1,4 @@
-package module04.lesson40_threads.data_race;
+package module04.lesson41_daemon.data_race;
 
 /**
  * Class DataRace demonstrates the example of data race end the decision.

@@ -1,4 +1,4 @@
-package module04.lesson40_threads.methods;
+package module04.lesson41_daemon;
 
 /**
  * Класс VolatileExample
@@ -8,7 +8,8 @@ package module04.lesson40_threads.methods;
  */
 public class VolatileExample extends Thread {
 
-    volatile boolean b = true;
+    // volatile boolean b = true;
+    boolean b = true;
 
     @Override
     public void run() {
