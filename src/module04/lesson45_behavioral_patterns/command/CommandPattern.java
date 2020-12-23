@@ -5,12 +5,13 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * Class Client
+ * Class CommandPattern demonstrates the work of command pattern, which
+ * allows to wrap queries or simple operations into separate objects.
  *
  * @author Kamila Meshcheryakova
  * created 21.12.2020
  */
-public class Client {
+public class CommandPattern {
 
     static final BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
