@@ -13,3 +13,10 @@ This project contains materials for Perfect Storms lessons:
 
 *module 03:*
 - lesson 25 "List interface: ArrayList and LinkedList";
+- lesson 33 "Structural patterns: Adapter, Composite, Decorator, Facade";
+
+*module 04:*
+- lesson 35 "Input/output streams";
+- lesson 40 "Threads: creation, methods, dead lock";
+- lesson 41 "Daemon threads: creation, synchronized, volatile, data race";
+- lesson 45 "Behavioral patterns: Command, Interpreter, Mediator, State";
